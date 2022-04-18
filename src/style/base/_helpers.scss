@@ -1,0 +1,109 @@
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.clean-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.main-layout {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+.blue {
+  // background-color: blue;
+  
+
+
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 0% 97%, rgba(0, 193, 255, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 0% 97%, rgba(0, 193, 255, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 0% 97%, rgba(0, 193, 255, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 0% 97%, rgba(0, 193, 255, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 0% 97%, rgba(0, 193, 255, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
+
+}
+.red {
+  // background-color: red;
+  
+
+
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 0% 97%, rgba(255, 157, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 0% 97%, rgba(255, 157, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 0% 97%, rgba(255, 157, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 0% 97%, rgba(255, 157, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 0% 97%, rgba(255, 157, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+
+}
+
+@media (max-width:$break-narrow) {
+  .main-layout {
+    max-width: 300px;
+  }
+  
+}
+@media (min-width:$break-narrow) {
+  .main-layout {
+    max-width: 450px;
+  }
+  
+}
+@media (min-width:$break-normal) {
+  .main-layout {
+    max-width: 710px;
+  }
+  
+}
+@media (min-width:$break-wide) {
+  .main-layout {
+    max-width: 960px;
+  }
+  
+}
+
+// $break-narrow: 460px;
+// $break-normal: 720px;
+// $break-wide: 960px;

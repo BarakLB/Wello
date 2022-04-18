@@ -1,0 +1,24 @@
+//SETUP
+@import './setup/functions.scss';
+@import './setup/mixins.scss';
+@import './setup/typography.scss';
+@import './setup/variables.scss';
+
+
+//BASE
+@import './base/base.scss';
+@import './base/helpers.scss';
+
+//PAGES
+@import './pages/favorites.scss';
+@import './pages/app.scss';
+
+//CMPS
+@import './cmps/app-header.scss';
+@import './cmps/modal.scss';
+@import './cmps/hero.scss';
+@import './cmps/search.scss';
+@import './cmps/card-list.scss';
+@import './cmps/card.scss';
+@import './cmps/clock.scss';
+@import './cmps/weather-chart.scss';

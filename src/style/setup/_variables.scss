@@ -1,0 +1,20 @@
+// Colors
+$clr1: #0a0a1f;
+$clr2: #6151C3;
+// $clr3: #dafbf1;
+$clr3: rgb(233, 162, 255);
+$clr4: #ffff;
+$clr5: #B64DFF;
+
+
+// LAYOUT
+$layoutPadding: 20px;
+
+// Breakpoints
+$break-narrow: 460px;
+$break-normal: 720px;
+$break-wide: 1020px;
+
+$padded-break-narrow: $break-narrow + $layoutPadding * 2;
+$padded-break-normal: $break-normal + $layoutPadding * 2;
+$padded-break-wide: $break-wide + $layoutPadding * 2;

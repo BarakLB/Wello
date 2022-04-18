@@ -1,0 +1,17 @@
+.clock-container {
+  margin-top: 1rem;
+  background-color: $clr2;
+  color: $clr3;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  //   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.398);
+  h3 {
+    font-size: 20px;
+  }
+}

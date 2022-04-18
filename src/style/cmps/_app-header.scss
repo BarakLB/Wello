@@ -1,0 +1,63 @@
+.header-wrapper {
+  position: relative;
+  background-color: $clr2;
+  color: #fafafa;
+
+  header {
+    // max-width: $break-wide;
+    margin: 0 auto;
+    height: rem(54px);
+    align-items: center;
+
+    .logo {
+      color: $clr3;
+    }
+  }
+
+  nav {
+    > * {
+      margin-left: 20px;
+    }
+  }
+
+  // z-index: 0;
+  .waves-img {
+    // z-index: 0;
+      position: absolute;
+    // img {
+    //   width: 100%;
+    // }
+    height: rem(960px);
+    background-image: url('../../assets/bgs/layered-waves-haikei.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+}
+
+@media (max-width: $break-narrow) {
+  nav {
+    display: none;
+  }
+  .hamburger {
+    background-color: #222831ce;
+    //   width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hamburger-icon {
+    // height: rem(24px);
+    height: 40px;
+    // svg {
+    // }
+  }
+}
+
+@media (min-width: $break-narrow) {
+  .hamburger {
+    display: none;
+  }
+}

@@ -1,0 +1,45 @@
+.card {
+  z-index: 1;
+  color: #ffff;
+  // background-color: rgba(95, 95, 95, 0.331);
+  // background-color:$clr2;
+
+ /* ff 3.6+ */
+ background:-moz-radial-gradient(ellipse at 95% 100%, rgba(182, 77, 255, 1) 0%, rgba(97, 81, 195, 1) 100%);
+
+ /* safari 5.1+,chrome 10+ */
+ background:-webkit-radial-gradient(ellipse at 95% 100%, rgba(182, 77, 255, 1) 0%, rgba(97, 81, 195, 1) 100%);
+
+ /* opera 11.10+ */
+ background:-o-radial-gradient(ellipse at 95% 100%, rgba(182, 77, 255, 1) 0%, rgba(97, 81, 195, 1) 100%);
+
+ /* ie 10+ */
+ background:-ms-radial-gradient(ellipse at 95% 100%, rgba(182, 77, 255, 1) 0%, rgba(97, 81, 195, 1) 100%);
+
+ /* global 92%+ browsers support */
+ background:radial-gradient(ellipse at 95% 100%, rgba(182, 77, 255, 1) 0%, rgba(97, 81, 195, 1) 100%);
+
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 1rem;
+  padding: 0.5rem 2.5rem;
+  width: 100%;
+
+  .card-date {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .card-txt, .card-temp {
+    // height: 40px
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  .card-temp {
+    color: $clr3;
+  }
+  a {
+    font-size: 12px;
+  }
+}

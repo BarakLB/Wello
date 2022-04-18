@@ -1,0 +1,119 @@
+.hero-container {
+  padding: 4rem 0;
+  position: relative;
+  gap: 2rem;
+  .hero-txt {
+    height: 100%;
+    align-items: flex-start;
+    h1 {
+      /* ff 3.6+ */
+      background: -moz-linear-gradient(
+        90deg,
+        rgba(96, 230, 194, 1) 0%,
+        rgba(218, 251, 241, 1) 100%
+      );
+
+      /* safari 5.1+,chrome 10+ */
+      background: -webkit-linear-gradient(
+        90deg,
+        rgba(96, 230, 194, 1) 0%,
+        rgba(218, 251, 241, 1) 100%
+      );
+
+      /* opera 11.10+ */
+      background: -o-linear-gradient(
+        90deg,
+        rgba(96, 230, 194, 1) 0%,
+        rgba(218, 251, 241, 1) 100%
+      );
+
+      /* ie 6-9 */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DAFBF1', endColorstr='#60E6C2', GradientType=0 );
+
+      /* ie 10+ */
+      background: -ms-linear-gradient(
+        90deg,
+        rgba(96, 230, 194, 1) 0%,
+        rgba(218, 251, 241, 1) 100%
+      );
+
+      /* global 94%+ browsers support */
+      background: linear-gradient(
+        90deg,
+        rgba(96, 230, 194, 1) 0%,
+        rgba(218, 251, 241, 1) 100%
+      );
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 50px;
+    }
+
+    p {
+      line-height: 28px;
+      width: 100%;
+    }
+
+    a {
+      margin: 1rem 0 4rem;
+
+      background-color: $clr2;
+      color: $clr1;
+      padding: 5px 30px;
+      border-radius: 3px;
+      font-size: 18px;
+      transition: all ease-in-out 0.35s;
+      box-shadow: 0px 17px 10px -15px $clr3;
+      &:hover {
+        box-shadow: 0px 37px 20px -15px $clr3;
+        background-color: $clr3;
+        transform: translate(0px, -10px);
+      }
+    }
+  }
+}
+
+@media (max-width: $break-narrow) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    .hero-img {
+      img {
+        height: 200px;
+      }
+    }
+  }
+}
+
+@media (min-width: $break-narrow) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    .hero-img {
+      img {
+        height: 250px;
+      }
+    }
+  }
+}
+@media (min-width: $break-normal) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    .hero-img {
+      img {
+        height: 250px;
+      }
+    }
+  }
+}
+@media (min-width: $break-wide) {
+  .hero-container {
+    flex-direction: row;
+    .hero-img {
+      img {
+        height: 400px;
+      }
+    }
+  }
+}

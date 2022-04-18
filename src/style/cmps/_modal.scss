@@ -1,0 +1,45 @@
+.modal {
+  z-index: 5;
+  // background-color: $clr2;
+   /* ff 3.6+ */
+   background:-moz-linear-gradient(335deg, rgba(182, 77, 255, 1) 0%, rgba(97, 81, 195, 1) 47%, rgba(97, 81, 195, 1) 100%); 
+
+   /* safari 5.1+,chrome 10+ */
+   background:-webkit-linear-gradient(335deg, rgba(182, 77, 255, 1) 0%, rgba(97, 81, 195, 1) 47%, rgba(97, 81, 195, 1) 100%);
+
+   /* opera 11.10+ */
+   background:-o-linear-gradient(335deg, rgba(182, 77, 255, 1) 0%, rgba(97, 81, 195, 1) 47%, rgba(97, 81, 195, 1) 100%);
+
+   /* ie 6-9 */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B64DFF', endColorstr='#6151C3', GradientType=1 );
+
+   /* ie 10+ */
+   background:-ms-linear-gradient(335deg, rgba(182, 77, 255, 1) 0%, rgba(97, 81, 195, 1) 47%, rgba(97, 81, 195, 1) 100%);
+
+   /* global 94%+ browsers support */
+   background:linear-gradient(335deg, rgba(182, 77, 255, 1) 0%, rgba(97, 81, 195, 1) 47%, rgba(97, 81, 195, 1) 100%);
+  
+  position: absolute;
+  right: 0;
+  top: rem(50px);
+  // height: %;
+  width: 100%;
+  padding: 0.5rem 0 1rem;
+  > * {
+    margin: 20px 0 0 15px;
+  }
+
+  .contact-btn {
+    background-color: $clr2;
+    color: $clr4;
+    border: none;
+    padding: 6px 15px;
+    margin: 20px auto;
+  }
+}
+
+@media (min-width: $break-narrow) {
+  .modal {
+    display: none;
+  }
+}
