@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Wello/static/css/main.7aa9adaf.css",
-    "main.js": "/Wello/static/js/main.6af58e1e.js",
+    "main.css": "/Wello/static/css/main.770c8f06.css",
+    "main.js": "/Wello/static/js/main.5b1ad8ed.js",
     "static/media/Poppins-Regular.ttf": "/Wello/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
     "static/media/17.png": "/Wello/static/media/17.4b8d4543699af9743509.png",
     "static/media/41.png": "/Wello/static/media/41.da8960711b2a7bdd80c0.png",
@@ -10,11 +10,11 @@
     "static/media/layered-waves-haikei.svg": "/Wello/static/media/layered-waves-haikei.c4c92f07b73d61e776708aafb310e120.svg",
     "index.html": "/Wello/index.html",
     "static/media/hamburger.svg": "/Wello/static/media/hamburger.ff790ec3a9dffb610488305ef9b85758.svg",
-    "main.7aa9adaf.css.map": "/Wello/static/css/main.7aa9adaf.css.map",
-    "main.6af58e1e.js.map": "/Wello/static/js/main.6af58e1e.js.map"
+    "main.770c8f06.css.map": "/Wello/static/css/main.770c8f06.css.map",
+    "main.5b1ad8ed.js.map": "/Wello/static/js/main.5b1ad8ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.7aa9adaf.css",
-    "static/js/main.6af58e1e.js"
+    "static/css/main.770c8f06.css",
+    "static/js/main.5b1ad8ed.js"
   ]
 }
